@@ -1,46 +1,47 @@
 body {
-    background-image: url(pic/beans.jpg);
-    font-family: sans-serif;
-    padding: 20px;
+    background-image: url(pic/beans.jpg); /*картинка фон*/
+    font-family: sans-serif; /*весь текст позамовчуванню на сторінці sans-serif*/
+    padding: 20px; /* відступ 20 пікселів навколо від фону*/
   }
   
   h1 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
+    font-size: 40px; /*розмір h1 */
+    margin-top: 0; /* відступ зверху*/
+    margin-bottom: 15px; /* відступ знизу*/
   }
-  
   h2 {
-    font-size: 30px;
+    font-size: 30px; /*розмір h2 */
   }
   
   .established {
-    font-style: italic;
+    font-style: italic; /*нахилений шрифт для фрази "Ми працюємо з 2010 року"*/
   }
   
   h1, h2, p {
-    text-align: center;
+    text-align: center; /*вирівнювання по середині заголовків та вільних параграфів*/
   }
   
+  /*блок меню*/
   .menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
+    width: 80%;   /*ширина по горизонту блоку*/
+    background-color: burlywood; /*колір блоку*/
+    margin-left: auto;  /*відступ лівий*/
+    margin-right: auto; /*відступ правий*/
+    padding: 20px; /*відступ навколо*/
+    max-width: 500px; /*максимальна ширина*/
   }
   
   img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block; /*вигляд блоку, на всю ширину*/
+    margin-left: auto; /*відступ лівий*/
+    margin-right: auto; /*відступ правий*/
   }
   
+  /*переділ*/
   hr {
-    height: 2px;
-    background-color: brown;
-    border-color: brown;
+    height: 2px;  /*висота*/
+    background-color: brown; /*колір фону*/
+    border-color: brown; /*колір обводки*/
   }
   
   .bottom-line {
